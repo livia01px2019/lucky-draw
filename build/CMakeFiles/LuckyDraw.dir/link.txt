@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/LuckyDraw.dir/execute.cc.o  -o LuckyDraw LuckyDrawLib/libLuckyDrawLib.a 

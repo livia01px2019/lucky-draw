@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLuckyDrawLib.a  CMakeFiles/LuckyDrawLib.dir/luckydraw.cc.o
+/usr/bin/ranlib libLuckyDrawLib.a

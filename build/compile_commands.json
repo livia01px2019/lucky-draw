@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/livia/Documents/roborock/luckydraw/build",
+  "command": "/usr/bin/c++    -I/home/livia/Documents/roborock/luckydraw/LuckyDrawLib  -g   -o CMakeFiles/LuckyDraw.dir/execute.cc.o -c /home/livia/Documents/roborock/luckydraw/execute.cc",
+  "file": "/home/livia/Documents/roborock/luckydraw/execute.cc"
+},
+{
+  "directory": "/home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib",
+  "command": "/usr/bin/c++     -g   -o CMakeFiles/LuckyDrawLib.dir/luckydraw.cc.o -c /home/livia/Documents/roborock/luckydraw/LuckyDrawLib/luckydraw.cc",
+  "file": "/home/livia/Documents/roborock/luckydraw/LuckyDrawLib/luckydraw.cc"
+}
+]
