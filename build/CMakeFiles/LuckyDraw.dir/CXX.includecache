@@ -11,10 +11,6 @@
 /home/livia/Documents/roborock/luckydraw/execute.cc
 stdio.h
 -
-stdlib.h
--
-ctime
--
 luckydraw.hh
 /home/livia/Documents/roborock/luckydraw/luckydraw.hh
 
