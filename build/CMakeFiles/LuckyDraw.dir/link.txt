@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/LuckyDraw.dir/execute.cc.o  -o LuckyDraw LuckyDrawLib/libLuckyDrawLib.a 
+/usr/bin/c++   -g   CMakeFiles/LuckyDraw.dir/execute.cc.o  -o LuckyDraw LuckyDrawLib/libLuckyDrawLib.so -Wl,-rpath,/home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LuckyDrawLib.dir/luckydraw.cc.o"
   "libLuckyDrawLib.pdb"
-  "libLuckyDrawLib.a"
+  "libLuckyDrawLib.so"
 )
 
 # Per-language clean rules from dependency scanning.

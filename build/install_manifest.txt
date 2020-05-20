@@ -1,0 +1,3 @@
+/usr/local/lib/libLuckyDrawLib.so
+/usr/local/include/luckydraw.hh
+/usr/local/share/pkgconfig/LuckyDrawLib.pc

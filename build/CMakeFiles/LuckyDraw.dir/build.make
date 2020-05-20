@@ -90,7 +90,7 @@ LuckyDraw_EXTERNAL_OBJECTS =
 
 LuckyDraw: CMakeFiles/LuckyDraw.dir/execute.cc.o
 LuckyDraw: CMakeFiles/LuckyDraw.dir/build.make
-LuckyDraw: LuckyDrawLib/libLuckyDrawLib.a
+LuckyDraw: LuckyDrawLib/libLuckyDrawLib.so
 LuckyDraw: CMakeFiles/LuckyDraw.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/livia/Documents/roborock/luckydraw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LuckyDraw"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LuckyDraw.dir/link.txt --verbose=$(VERBOSE)

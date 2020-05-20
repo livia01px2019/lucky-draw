@@ -1,6 +1,14 @@
-/home/livia/Documents/roborock/luckydraw/build/CMakeFiles/edit_cache.dir
 /home/livia/Documents/roborock/luckydraw/build/CMakeFiles/rebuild_cache.dir
+/home/livia/Documents/roborock/luckydraw/build/CMakeFiles/install.dir
+/home/livia/Documents/roborock/luckydraw/build/CMakeFiles/list_install_components.dir
 /home/livia/Documents/roborock/luckydraw/build/CMakeFiles/LuckyDraw.dir
-/home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib/CMakeFiles/edit_cache.dir
+/home/livia/Documents/roborock/luckydraw/build/CMakeFiles/install/local.dir
+/home/livia/Documents/roborock/luckydraw/build/CMakeFiles/install/strip.dir
+/home/livia/Documents/roborock/luckydraw/build/CMakeFiles/edit_cache.dir
+/home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib/CMakeFiles/install.dir
+/home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib/CMakeFiles/list_install_components.dir
 /home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib/CMakeFiles/rebuild_cache.dir
 /home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib/CMakeFiles/LuckyDrawLib.dir
+/home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib/CMakeFiles/install/local.dir
+/home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib/CMakeFiles/install/strip.dir
+/home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib/CMakeFiles/edit_cache.dir

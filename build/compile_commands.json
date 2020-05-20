@@ -6,7 +6,7 @@
 },
 {
   "directory": "/home/livia/Documents/roborock/luckydraw/build/LuckyDrawLib",
-  "command": "/usr/bin/c++     -g   -o CMakeFiles/LuckyDrawLib.dir/luckydraw.cc.o -c /home/livia/Documents/roborock/luckydraw/LuckyDrawLib/luckydraw.cc",
+  "command": "/usr/bin/c++   -DLuckyDrawLib_EXPORTS -I/home/livia/Documents/roborock/luckydraw/LuckyDrawLib/.  -g -fPIC   -o CMakeFiles/LuckyDrawLib.dir/luckydraw.cc.o -c /home/livia/Documents/roborock/luckydraw/LuckyDrawLib/luckydraw.cc",
   "file": "/home/livia/Documents/roborock/luckydraw/LuckyDrawLib/luckydraw.cc"
 }
 ]
