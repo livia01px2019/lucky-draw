@@ -1,1 +1,1 @@
-unsigned int lucky_draw(const unsigned int source_people[]);
+unsigned int lucky_draw(unsigned int* const source_people);

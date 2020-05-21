@@ -1,1 +1,1 @@
-/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libLuckyDrawLib.so -o libLuckyDrawLib.so CMakeFiles/LuckyDrawLib.dir/luckydraw.cc.o 
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libLuckyDrawLib.so -o libLuckyDrawLib.so CMakeFiles/LuckyDrawLib.dir/luckydraw.cc.o 
