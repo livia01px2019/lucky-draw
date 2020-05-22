@@ -1,33 +1,41 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctime>
+#include <algorithm>
 #include "luckydraw.hh"
 
-unsigned int* already_drawn = new unsigned int[100];
+unsigned int* people = new unsigned int[100];
 int counter = 0;
 
-unsigned int lucky_draw(unsigned int* const source_people)
-{
-    srand((unsigned) time(0));
-
-    int index_drawn = rand()%(100-counter);
-    int add = 0;
-    for (int i = 0; i < counter; i++){
-        if (index_drawn >= *(already_drawn + i)) {
-            add++;
-        }
+void init_lucky(const unsigned int* const source_people) {
+    for (int i = 0; i < 100; i ++){
+        people[i] = source_people[i];
     }
-
-    int actual_index = index_drawn + add;
-    already_drawn[counter] = actual_index; 
-    counter++;
-
-    return *(source_people + actual_index);
 }
 
-void free_already_drawn()
+unsigned int lucky_draw()
+{ 
+    srand((unsigned) time(0));
+
+    if (counter >= 100) {
+        throw "100 already drawn.";
+    }
+
+    int index_drawn = rand()%(100-counter);
+    int return_person = people[index_drawn];
+
+    // swap
+    int temp = people[index_drawn];
+    people[index_drawn] = people[99-counter];
+    people[99-counter] = temp;
+
+    counter++;
+    return return_person;
+}
+
+void free_people()
 {
-    delete[] already_drawn;
-    already_drawn = 0;
+    delete[] people;
+    people = 0;
     counter = 0;
 }
