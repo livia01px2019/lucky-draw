@@ -1,5 +1,7 @@
 project(luckyDrawLib)
 
+set(CMAKE_BUILD_TYPE "Debug")
+
 add_library(LuckyDrawLib SHARED 
     luckydraw.cc
 )
