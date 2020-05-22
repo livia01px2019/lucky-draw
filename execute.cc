@@ -11,4 +11,7 @@ int main(int argc, char *argv[])
         unsigned int drawn = lucky_draw(source_people);
         printf("%u \n", drawn);
     }
+
+    free_already_drawn();
+    return 0;
 }
