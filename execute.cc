@@ -3,13 +3,14 @@
 
 int main(int argc, char *argv[])
 {
-    unsigned int source_people [100];
-    for (int i = 0; i < 100; i++) {
+    int size = 100;
+    unsigned int source_people [size];
+    for (int i = 0; i < size; i++) {
         source_people [i] = i;
     }
-    init_lucky(source_people);
+    init_lucky(source_people, size);
 
-    for(int i = 0; i < 100; i++) {
+    for(int i = 0; i < 10; i++) {
         try {
             unsigned int drawn = lucky_draw();
             printf("%u \n", drawn);
