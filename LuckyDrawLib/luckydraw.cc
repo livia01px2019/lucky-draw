@@ -27,7 +27,7 @@ unsigned int lucky_draw()
     int index_drawn = rand()%(people_size-counter);
     unsigned int return_person = people[index_drawn];
 
-    people[people_size-1-counter] = people[index_drawn];
+    people[index_drawn] = people[people_size-1-counter];
 
     counter++;
     return return_person;
