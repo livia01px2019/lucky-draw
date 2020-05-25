@@ -27,10 +27,7 @@ unsigned int lucky_draw()
     int index_drawn = rand()%(people_size-counter);
     unsigned int return_person = people[index_drawn];
 
-    // swap
-    unsigned int temp = people[index_drawn];
-    people[index_drawn] = people[people_size-1-counter];
-    people[people_size-1-counter] = temp;
+    people[people_size-1-counter] = people[index_drawn];
 
     counter++;
     return return_person;
